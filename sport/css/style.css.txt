@@ -1,0 +1,52 @@
+/* ===========================
+   Пользовательские стили сайта
+   Тема: Спортивный клуб «Олимп»
+   =========================== */
+
+/* Общие стили для body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Шапка сайта (Header) */
+.site-header {
+    border-bottom: 3px solid #0a58ca;
+}
+
+/* Карточки с эффектом при наведении */
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Кнопки */
+.btn-primary {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Подвал сайта (Footer) */
+.site-footer {
+    border-top: 3px solid #0a58ca;
+}
+
+/* Адаптация таблиц для мобильных */
+.table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Хлебные крошки */
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
